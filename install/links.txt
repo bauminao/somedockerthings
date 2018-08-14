@@ -1,0 +1,2 @@
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/classic/rdma-cluster
+http://batch-shipyard.readthedocs.io/en/latest/
