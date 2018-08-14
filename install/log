@@ -1,6 +1,15 @@
 yum install -y bison flex gcc-c++ zlib-devel boost-devel cmake
 Download / unpack OpenFoam Third Party
 set up .../bashrc from Openfoam
-/home/azureuser/parallel_studio_xe_2016_update3_online.sh : "Intel MPI Compiler, Version 2016, Update 3" 
+/home/azureuser/parallel_studio_xe_2016_update3_online.sh : "Intel MPI Compiler, Version 2016, Update 3", Cluster Edition for Linux
+    Component(s) selected:
+        Intel(R) MPI Library 5.1 Update 3                                      763MB
+            Intel MPI Benchmarks
+            Intel MPI Library for applications running on Intel(R) 64 Architecture
+            Intel MPI Library for applications running on Intel(R) Many Integrated
+    Core Architecture
+
+
+
 
 
