@@ -1,0 +1,11 @@
+job_specifications:
+- id: openfoamjob
+  auto_complete: true
+  shm_size: 256m
+  tasks:
+  - docker_image: vcl/openfoam_IMPI_1806
+    shared_data_volumes:
+    - glustervol
+    multi_instance:
+      num_instances: pool_current_dedicated
+    command: /opt/OpenFOAM/run_sample.sh

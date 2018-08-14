@@ -1,0 +1,14 @@
+pool_specification:
+  id: docker-openfoam-rdma
+  vm_configuration:
+    platform_image:
+      publisher: OpenLogic
+      offer: CentOS-HPC
+      sku: '7.4'
+  vm_count:
+    dedicated: 16
+    low_priority: 0
+  vm_size: STANDARD_H16R
+  inter_node_communication_enabled: true
+  ssh:
+    username: shipyard
