@@ -1,0 +1,9 @@
+INTELMPI
+CentOs-HPC ... als VM, (+) Intel... MPI, ... (!CentOS-HPC 7.3 nicht. 7.1 bevorzugt)
+  User/Pfad auf vergleichbare Basis
+  Kompilat von vm in docker
+  publish
+
+
+
+
